@@ -81,7 +81,7 @@ pipeline {
 	{
 		success
 		{
-			echo "Pipeline Completed Successfully"
+			echo "New Pipeline Completed Successfully"
 		}
 
 		failure
