@@ -34,7 +34,7 @@ pipeline {
 					sh '''
 					echo "$DOCKER_TOKEN" | \
 					docker login \
-					-u $DOCKER_USER \
+					-u "$DOCKER_USER" \
 					--password-stdin 
 					'''
 				
